@@ -258,6 +258,8 @@ footer {
 
     #projects .project .right #ipa {
         margin-right: -483px;
+        height: 400px;
+        width: auto;
     }
 
     #maze {
