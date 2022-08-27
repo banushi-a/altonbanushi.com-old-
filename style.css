@@ -162,6 +162,7 @@ nav ul li a:active {
 }
 
 #projects .project .right {
+    overflow: hidden;
     display: flex;
     justify-content: center;
     height: 400px;
