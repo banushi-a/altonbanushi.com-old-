@@ -193,13 +193,13 @@ nav ul li a:active {
 
 #courses {
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;  
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 #courses ul {
     line-height: 3em;
-    margin-left: -40px;
+    margin-right: 60px;
 }
 
 /* ---------- PROJECTS ---------- */
@@ -307,6 +307,11 @@ footer {
 
     .exp-card a p {
         line-height: 3.3em;
+    }
+
+    #courses {
+        display: flex;
+        justify-content: space-around;
     }
 
     #projects {
