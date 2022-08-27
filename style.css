@@ -167,6 +167,16 @@ nav ul li a:active {
     height: 400px;
 }
 
+#ipa {
+    height: unset;
+    width: 90vw;
+    height: 30vh;
+}
+
+#maze {
+    height: 300px;
+}
+
 /* ---------- FOOTER ---------- */
 
 footer {
