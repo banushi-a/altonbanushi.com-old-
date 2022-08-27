@@ -156,6 +156,7 @@ nav ul li a:active {
     padding-bottom: 40px;
     border-top: 6px solid #1c8ce0;
     border-right: 6px solid #1c8ce0;
+
 }
 
 #education h2 {
@@ -194,6 +195,7 @@ nav ul li a:active {
     display: flex;
     justify-content: space-around;
     align-items: baseline;  
+    overflow: hidden;
 }
 
 #courses ul {
