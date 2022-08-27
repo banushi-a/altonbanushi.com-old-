@@ -164,9 +164,6 @@ nav ul li a:active {
 #projects .project .right {
     display: flex;
     justify-content: center;
-}
-
-#projects .project .right img {
     height: 400px;
 }
 
@@ -222,6 +219,10 @@ footer {
         font-size: 4em;
     }
 
+    #projects {
+        overflow: hidden;
+    }
+
     #projects .project {
         text-align: left;
         display: flex;
@@ -230,10 +231,27 @@ footer {
 
     #projects .project .left {
         max-width: 40vw;
+        flex-grow: 1;
+    }
+
+    #projects .project .right {
+        flex-grow: 2;
     }
 
     #projects .project p {
         line-height: 2.4em;
+    }
+
+    #projects .project .right img {
+        height: 400px;
+    }
+
+    #projects .project .right #ipa {
+        margin-right: -483px;
+    }
+
+    #maze {
+        margin-right: -269px;
     }
 
     #footer-left, #footer-right {
