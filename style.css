@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300;400;500&family=Lato:wght@300;400;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+    color: #fafcff;
+    letter-spacing: 0.152em;
+}
+
+/* ------- NAV BAR -------*/
+
+header {
+    margin-top: 0;
+    padding: 20px 40px;
+    background-color: #1c1c41;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    color: #fafcff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 15em;
+}
+
+nav ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #b4c0d3;
+}
+
+nav ul li a:hover {
+    color: #fafcff;
+    transition-duration: 0.2s;
+}
+
+nav ul li a:active {
+    color: #e13ee5;
+}
+
+/* ------- HERO -------*/
+
+#hero {
+    padding: 200px 50px;
+    padding-top: 120px;
+    background-color: #1c1c41;
+}
+
+#hero p {
+    list-style: none;
+    line-height: 1.7em;
+    padding-bottom: 40px;
+}
+
+#hero h1 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3em;
+    background-image: linear-gradient(40deg, #e13ee5, #0798f9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing:0.4em;
+}
+
+/* ------- EXPERIENCE -------*/
+
+#exp {
+    border-left: 6px solid #1c8ce0;
+    background-color: #eef3ff;
+    padding: 50px 34px;
+    padding-top: 30px;
+}
+
+#exp h2 {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    background-image: linear-gradient(230deg, #e13ee5, #0798f9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#exp-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.exp-card {
+    background-image: linear-gradient(70deg, #e13ee5, #0798f9);
+    width: 270px;
+    height: 320px;
+    padding: 18px 13px;
+    margin: 0 10px;
+    margin-bottom: 25px;
+    opacity: 0.8;
+    border-radius: 18px;
+    border: 2px solid #1c8ce0;
+    flex-grow: 1;
+    box-shadow: #b4c0d3 6px 6px;
+    transition-duration: 0.4s;
+}
+
+.exp-card:nth-child(2) {
+    background-image: linear-gradient(230deg, #e13ee5, #0798f9);
+}
+
+.exp-card:hover {
+    box-shadow: #b4c0d3 10px 10px;
+    transition-duration: 0.4s;
+}
+
+.exp-card h4 {
+    font-size: 1.2em;
+    margin-bottom: 4px;
+}
+
+.exp-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.exp-card p {
+    line-height: 2em;
+}
+
+/* ---------- PROJECTS ---------- */
+
+#projects {
+    color: #1c1c41;
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.project {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+#projects h4 {
+    color: #e13ee5;
+    margin-bottom: 0px;
+}
+
+#projects h3 {
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+#projects .project .right {
+    display: flex;
+    justify-content: center;
+}
+
+#projects .project .right img {
+    height: 400px;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    height: 250px;
+    background-color: #1c1c41;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-left {
+    max-width: 40vw;
+    margin: 20px 40px;
+}
+
+#footer-left p {
+    font-weight: lighter;
+}
+
+#footer-right {
+    margin: 20px 10vw;
+}
+
+#icons img {
+    width: 32px;
+    margin: 0 10px;
+    margin-left: 0px;
+
+}
+
+#icons a {
+    transition-duration: 0.4s;
+}
+
+#icons a:hover {
+    opacity: 0.6;
+    transition-duration: 0.5s;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    header nav ul {
+        width: 400px;
+    }
+
+    #hero div p {
+        font-size: 2em;
+    }
+
+    #hero div h1 {
+        font-size: 4em;
+    }
+
+    #projects .project {
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #projects .project .left {
+        max-width: 40vw;
+    }
+
+    #projects .project p {
+        line-height: 2.4em;
+    }
+
+    #footer-left, #footer-right {
+        margin-top: 40px;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+}
