@@ -112,6 +112,17 @@ nav ul li a:active {
     transition-duration: 0.4s;
 }
 
+.exp-card a {
+    text-decoration: none;
+    color: inherit;
+    transition-duration: 0.3s;
+}
+
+.exp-card a:hover {
+    color: #cbcfd5;
+    transition-duration: 0.3s;
+}
+
 .exp-card:nth-child(2) {
     background-image: linear-gradient(230deg, #e13ee5, #0798f9);
 }
@@ -271,6 +282,14 @@ footer {
     transition-duration: 0.5s;
 }
 
+#footer-left h3 {
+    display: inline-block;
+    background-image: linear-gradient(110deg, #e13ee5, #0798f9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 @media only screen and (min-width: 1024px) {
 
     header nav ul {
@@ -283,6 +302,10 @@ footer {
 
     #hero div h1 {
         font-size: 4em;
+    }
+
+    .exp-card a p {
+        line-height: 3.3em;
     }
 
     #projects {
