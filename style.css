@@ -143,6 +143,7 @@ nav ul li a:active {
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
+    overflow: hidden;
 }
 
 .project {
@@ -162,7 +163,6 @@ nav ul li a:active {
 }
 
 #projects .project .right {
-    overflow: hidden;
     display: flex;
     justify-content: center;
     height: 400px;
