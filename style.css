@@ -215,6 +215,7 @@ nav ul li a:active {
 
 .project {
     margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 #projects .project p {
@@ -334,6 +335,7 @@ footer {
     }
 
     #projects .project .right {
+        margin-top: 50px;
         flex-grow: 2;
     }
 
