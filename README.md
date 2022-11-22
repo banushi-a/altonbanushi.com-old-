@@ -1,2 +1,2 @@
 # altonbanushi.com
-[My Personal Website](altonbanushi.com)  💻
+[My Personal Website](https://altonbanushi.com)  💻
